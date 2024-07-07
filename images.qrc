@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/silhouette-male-icon.svg</file>
+        <file>images/silhouette-person-icon.svg</file>
+        <file>images/Versus-PNG-Image-File.png</file>
+        <file>images/Vs-PNG-Pic.png</file>
+        <file>images/Vs-Png-SVG.png</file>
+    </qresource>
+</RCC>
