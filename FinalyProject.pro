@@ -12,17 +12,23 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     one.cpp \
-    two.cpp
+    one2.cpp \
+    two.cpp \
+    two2.cpp
 
 HEADERS += \
     mainwindow.h \
     one.h \
-    two.h
+    one2.h \
+    two.h \
+    two2.h
 
 FORMS += \
     mainwindow.ui \
     one.ui \
-    two.ui
+    one2.ui \
+    two.ui \
+    two2.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

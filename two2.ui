@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>one</class>
- <widget class="QWidget" name="one">
+ <class>Two2</class>
+ <widget class="QWidget" name="Two2">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -16,6 +16,74 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(36, 86, 56);</string>
   </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>110</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Gill Sans Ultra Bold Condensed</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 239, 0);</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="currentText">
+    <string>general knowledge</string>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>general knowledge</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>history</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>book</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>film</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>music</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>art</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>computers</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>sports</string>
+    </property>
+   </item>
+  </widget>
   <widget class="QPushButton" name="exit">
    <property name="geometry">
     <rect>
@@ -42,54 +110,13 @@
     <string>Exit</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_4">
+  <widget class="QComboBox" name="comboBox_2">
    <property name="geometry">
     <rect>
-     <x>700</x>
+     <x>890</x>
      <y>110</y>
-     <width>221</width>
-     <height>211</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">image: url(:/new/prefix1/images/silhouette-person-icon.svg);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>700</x>
-     <y>330</y>
-     <width>221</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border-color: rgb(255, 115, 0);
-background-color: rgb(52, 125, 81);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="placeholderText">
-    <string>Enter your name...</string>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="comboBox">
-   <property name="geometry">
-    <rect>
-     <x>730</x>
-     <y>410</y>
      <width>151</width>
-     <height>71</height>
+     <height>61</height>
     </rect>
    </property>
    <property name="font">
@@ -129,19 +156,20 @@ background-color: rgb(52, 125, 81);</string>
     </property>
    </item>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="exit_2">
    <property name="geometry">
     <rect>
-     <x>720</x>
-     <y>500</y>
-     <width>171</width>
-     <height>91</height>
+     <x>680</x>
+     <y>240</y>
+     <width>211</width>
+     <height>81</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Gill Sans Ultra Bold Condensed</family>
-     <pointsize>15</pointsize>
+     <pointsize>25</pointsize>
+     <bold>false</bold>
     </font>
    </property>
    <property name="cursor">
@@ -151,7 +179,7 @@ background-color: rgb(52, 125, 81);</string>
     <string notr="true">background-color: rgb(255, 116, 24);</string>
    </property>
    <property name="text">
-    <string>Next</string>
+    <string>Start</string>
    </property>
   </widget>
  </widget>
