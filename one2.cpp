@@ -13,6 +13,7 @@ One2::~One2()
     delete ui;
 }
 
+
 void One2::on_exit_clicked()
 {
      QApplication::exit();
