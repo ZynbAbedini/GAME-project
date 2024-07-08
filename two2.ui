@@ -123,6 +123,9 @@ font: 700 15pt &quot;Sitka Display&quot;;</string>
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(0, 239, 0);</string>
    </property>
@@ -153,6 +156,9 @@ font: 700 15pt &quot;Sitka Display&quot;;</string>
      <height>71</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 116, 24);
 font: 700 16pt &quot;Source Code Pro&quot;;
@@ -179,6 +185,9 @@ font: 700 16pt &quot;Source Code Pro&quot;;
      <bold>true</bold>
     </font>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 116, 24);
 font: 700 16pt &quot;Source Code Pro&quot;;
@@ -204,6 +213,9 @@ font: 700 16pt &quot;Source Code Pro&quot;;
      <bold>false</bold>
     </font>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 116, 24);
 background-color: rgb(255, 85, 0);</string>
@@ -228,6 +240,9 @@ background-color: rgb(255, 85, 0);</string>
      <italic>false</italic>
      <bold>true</bold>
     </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 116, 24);
@@ -279,6 +294,9 @@ font: 700 16pt &quot;Source Code Pro&quot;;
      <italic>false</italic>
      <bold>true</bold>
     </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 116, 24);

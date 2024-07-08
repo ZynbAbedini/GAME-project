@@ -21,8 +21,7 @@
 #include <QRandomGenerator>
 #include <algorithm>
 #include "QApplication"
-//#include "Ui_Two2.h"
-//#include "ui_two2.h"
+
 
 Two2::Two2(QWidget *parent) :
     QMainWindow(parent),
