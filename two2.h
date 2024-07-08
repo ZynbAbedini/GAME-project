@@ -35,6 +35,10 @@ private slots:
     void on_radioButton_3_clicked();
     void on_radioButton_4_clicked();
 
+    void on_pushButton_2_clicked();
+
+    void on_exit_clicked();
+
 private:
     Ui::Two2 *ui;
     int player1_score;

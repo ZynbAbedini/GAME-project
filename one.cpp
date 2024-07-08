@@ -1,7 +1,7 @@
 #include "one.h"
 #include "ui_one.h"
 #include "QApplication"
-#include "one2.h""
+#include "one2.h"
 one::one(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::one)

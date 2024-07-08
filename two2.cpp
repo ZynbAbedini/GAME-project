@@ -21,7 +21,8 @@
 #include <QRandomGenerator>
 #include <algorithm>
 #include "QApplication"
-
+//#include "Ui_Two2.h"
+//#include "ui_two2.h"
 
 Two2::Two2(QWidget *parent) :
     QMainWindow(parent),
@@ -37,30 +38,30 @@ Two2::Two2(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    ui->comboBox_cat->addItem("Entertainment: Books");
+    ui->comboBox_cat->addItem("Entertainment: Cartoon & Animations");
+    ui->comboBox_cat->addItem("Entertainment: Music");
     ui->comboBox_cat->addItem("general knowledge");
-    ui->comboBox_cat->addItem("book");
-    ui->comboBox_cat->addItem("film");
-    ui->comboBox_cat->addItem("music");
-    ui->comboBox_cat->addItem("musicals & theaters");
-    ui->comboBox_cat->addItem("television");
-    ui->comboBox_cat->addItem("video games");
-    ui->comboBox_cat->addItem("board games");
-    ui->comboBox_cat->addItem("art");
-    ui->comboBox_cat->addItem("animals");
-    ui->comboBox_cat->addItem("comics");
-    ui->comboBox_cat->addItem("anime & manga");
-    ui->comboBox_cat->addItem("science & nature");
-    ui->comboBox_cat->addItem("computers");
-    ui->comboBox_cat->addItem("mathematics");
-    ui->comboBox_cat->addItem("mythology");
-    ui->comboBox_cat->addItem("sports");
-    ui->comboBox_cat->addItem("geography");
-    ui->comboBox_cat->addItem("history");
-    ui->comboBox_cat->addItem("politics");
-    ui->comboBox_cat->addItem("celebrities");
-    ui->comboBox_cat->addItem("vehicles");
-    ui->comboBox_cat->addItem("gadgets");
-    ui->comboBox_cat->addItem("carton & animations");
+    ui->comboBox_cat->addItem("Entertainment: Musicals & Theatres");
+    ui->comboBox_cat->addItem("Entertainment: Film");
+    ui->comboBox_cat->addItem("Entertainment: Television");
+    ui->comboBox_cat->addItem("Entertainment: Video Games");
+    ui->comboBox_cat->addItem("Entertainment: Board Games");
+    ui->comboBox_cat->addItem("Art");
+    ui->comboBox_cat->addItem("Animals");
+    ui->comboBox_cat->addItem("Entertainment: Comics");
+    ui->comboBox_cat->addItem("Japanese Anime & Manga:");
+    ui->comboBox_cat->addItem("Science & Nature");
+    ui->comboBox_cat->addItem("Science: Computers");
+    ui->comboBox_cat->addItem("Science: Mathematics");
+    ui->comboBox_cat->addItem("Mythology");
+    ui->comboBox_cat->addItem("Sports");
+    ui->comboBox_cat->addItem("Geography");
+    ui->comboBox_cat->addItem("History");
+    ui->comboBox_cat->addItem("Politics");
+    ui->comboBox_cat->addItem("Celebrities");
+    ui->comboBox_cat->addItem("Vehicles");
+    ui->comboBox_cat->addItem("Entertainment: Comics");
 
     connect(ui->comboBox_cat, SIGNAL(currentIndexChanged(int)), this, SLOT(set_c()));
 
@@ -249,4 +250,11 @@ Two2::~Two2() {
 // {
 //       QApplication::exit();
 // }
+
+
+void Two2::on_exit_clicked()
+{
+    QApplication::exit();
+    close();
+}
 

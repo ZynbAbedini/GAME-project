@@ -17,6 +17,9 @@
    <string notr="true">background-color: rgb(36, 86, 56);</string>
   </property>
   <widget class="QPushButton" name="exit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>40</x>
@@ -146,7 +149,7 @@ font: 700 15pt &quot;Sitka Display&quot;;</string>
     <rect>
      <x>600</x>
      <y>620</y>
-     <width>201</width>
+     <width>221</width>
      <height>71</height>
     </rect>
    </property>
@@ -164,9 +167,17 @@ font: 700 16pt &quot;Source Code Pro&quot;;
     <rect>
      <x>840</x>
      <y>620</y>
-     <width>191</width>
+     <width>221</width>
      <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Source Code Pro</family>
+     <pointsize>16</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 116, 24);
@@ -206,7 +217,7 @@ background-color: rgb(255, 85, 0);</string>
     <rect>
      <x>600</x>
      <y>520</y>
-     <width>201</width>
+     <width>221</width>
      <height>71</height>
     </rect>
    </property>
@@ -257,9 +268,17 @@ font: 700 16pt &quot;Source Code Pro&quot;;
     <rect>
      <x>840</x>
      <y>520</y>
-     <width>191</width>
+     <width>221</width>
      <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Source Code Pro</family>
+     <pointsize>16</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 116, 24);
