@@ -21,9 +21,11 @@ void Two::on_exit_clicked()
 }
 
 
+
 void Two::on_pushButton_clicked()
 {
     Two2 *t=new Two2();
     t->show();
 }
+
 
